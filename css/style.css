@@ -1,15 +1,59 @@
 @charset "utf-8";
+     /* -----0.스타일 공통속성----- */
+.mx-auto {
+    margin: 0 auto;
+    
+}
+.mx-10 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.my-30 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.my-50 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.text-center {
+    text-align: center;
+}
 
+     /* -----1.스타일 초기화----- */
+* {
+    margin: 0;
+    padding: 0;
+}
 .logo {
     width: 100px;
     height: 110px;
     display: block;
 }
-.mx-auto {
-    margin: 0 auto;
-    
+
+
+.nav {
+    height: 60px;
+    line-height: 60px;   /* 행-높이 : 높이와 같게하면 수직중앙에 배치*/
+    font-size: 14px;
 }
-.my-50 {
-    margin-top: 50px;
-    margin-bottom: 50px;
+.bg-nav {
+    background-color: #005891;
+}
+/* 쓰는순서             - link 
+                        - visited 링크텍스트를 클릭한이후(방문한적있는)
+                        - hover 
+                        - active 링크 텍스트를 클릭하고 있는 동안*/
+a:link {    
+    color: white;
+    text-decoration: none;
+}
+a:hover {    /*hover : 마우스를 올렸을때*/
+    color: #fcff00;
+    text-decoration: none;
+}
+
+.cf {
+    width: 800px; 
+    height: 500px; 
 }
