@@ -91,3 +91,32 @@ font-size: 0
 .bg-sns {
     background-color: #f3f3f3;
 }
+
+.divider {
+    border: 0;
+height: 1px;
+background-color: #005891;
+}
+                  /* -----#footer----- */
+              
+.cs-title {
+    font-size: 15px;
+    color: #005891;
+}
+.cs-number {
+    font-size: 30px;
+    font-weight: bold;
+    color: #005891;
+}
+.cs-number a {    /*하위 선택자*/
+color: #005891;
+}
+.address-ko {
+font-size: 13px;
+}
+.ownership-en {
+font-size: 11px;
+}
+.brand {
+font-style: italic;
+}
