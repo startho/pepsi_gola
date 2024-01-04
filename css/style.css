@@ -4,6 +4,14 @@
     margin: 0 auto;
     
 }
+.py-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.mx-5 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
 .mx-10 {
     margin-left: 10px;
     margin-right: 10px;
@@ -75,4 +83,11 @@ a:hover {    /*hover : 마우스를 올렸을때*/
 width: 600px;
 height: 300px;
 font-size: 0
+}
+
+.sns{
+    font-size: 0;
+}
+.bg-sns {
+    background-color: #f3f3f3;
 }
